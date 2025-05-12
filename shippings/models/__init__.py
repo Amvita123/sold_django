@@ -1,0 +1,1 @@
+from shippings.models.shipping_info import ShippingInfo

@@ -1,0 +1,11 @@
+.env
+.idea
+venv
+.vercel
+env
+tailwindcss
+assets
+.venv
+__pycache__/
+
+
