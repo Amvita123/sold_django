@@ -73,10 +73,15 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://solddjango-production.up.railway.app",
-]
+CSRF_TRUSTED_ORIGINS = ["https://solddjango-production.up.railway.app"]
 
+CORS_ALLOWED_ORIGINS = ["https://solddjango-production.up.railway.app"]
+
+CORS_ALLOW_CREDENTIALS = True
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = "None"
+SESSION_COOKIE_SAMESITE = "None"
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
