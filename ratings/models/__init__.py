@@ -1,0 +1,1 @@
+from ratings.models.user_rating import UserRating

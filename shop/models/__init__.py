@@ -5,3 +5,4 @@ from shop.models.colors import Color
 from shop.models.material import Material
 from shop.models.size import Size
 from shop.models.sub_category import SubCategory, SubCategoryItems
+from shop.models.sales import Sales
